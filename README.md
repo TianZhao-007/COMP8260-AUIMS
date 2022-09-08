@@ -1,8 +1,8 @@
-# AUIMS：Australian Unified Information Management Service
+## AUIMS：Australian Unified Information Management Service
 
-## :memo: *Description*
+### :memo: *Description*
 This project aims to solve the data ubuse problem by giving every user the right to manage their own infomation on the Internet.
 
-## :books: *Documentation*
+### :books: *Documentation*
 
-## :wrench: *Tools*
+### :wrench: *Tools*
