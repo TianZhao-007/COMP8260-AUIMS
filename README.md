@@ -1,5 +1,3 @@
-# COMP8260-AUIMS  
-
 ## AUIMS：Australian Unified Information Management Service
 
 ### :memo: *Description*
