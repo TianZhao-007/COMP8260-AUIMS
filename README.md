@@ -1,7 +1,7 @@
 ## AUIMS：Australian Unified Information Management Service
 
 ### :memo: *Description*
-This project aims to solve the data ubuse problem by giving every user the right to manage their own infomation on the Internet.
+This project aims to solve the data ubuse problem by giving every user the right to manage their own infomation on the Internet. We hope this tool can help AI practitioners produce actionable best practices when they deal with users' data.
 
 ### :hammer: *Code*  
 The program includes basic frontend and backend code, which are implemeneted by Android Studio. The programming language is Kotlin.  
