@@ -5,7 +5,11 @@ This project aims to solve the data ubuse problem by giving every user the right
 
 ### :hammer: *Code*  
 The program includes basic frontend and backend code, which are implemeneted by Android Studio. The programming language is Kotlin.  
-The frontend function includes login, user's home where their infomation statistics is shown, user's data management function where they can control their own data stored on the Internet as well as "About" function where we developers show some version infomaiton about this application.
+The frontend function includes:  
+- login: User log in with MyGov account.  
+- Home: User's home where their infomation statistics is shown.  
+- Data management: where users can control their own data stored on the Internet.  
+- About: where we developers reveal some necessary message about this application.  
 
 ### :books: *Documentation*
 
