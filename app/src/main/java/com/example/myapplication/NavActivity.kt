@@ -1,6 +1,8 @@
 package com.example.myapplication
 import android.os.Bundle
 import android.view.Menu
+import android.widget.EditText
+import android.widget.ListView
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
 import androidx.navigation.findNavController
@@ -15,7 +17,7 @@ import com.example.myapplication.databinding.ActivityNavBinding
 class NavActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
-private lateinit var binding: ActivityNavBinding
+    private lateinit var binding: ActivityNavBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,6 +40,7 @@ private lateinit var binding: ActivityNavBinding
             R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow), drawerLayout)
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

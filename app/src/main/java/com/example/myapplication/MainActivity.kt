@@ -37,6 +37,17 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
 
         }
+
+        setContentView(R.layout.fragment_gallery)
+        val google = findViewById<Button>(R.id.google)
+        google.setOnClickListener {
+
+            // your code to validate the user_name and password combination
+            // and verify the same
+            val intent = Intent(this,SettingsActivity::class.java)
+            startActivity(intent)
+
+        }
     }
 
 

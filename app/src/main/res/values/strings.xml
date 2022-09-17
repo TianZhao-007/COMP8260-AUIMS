@@ -9,6 +9,21 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Info Management</string>
+    <string name="menu_gallery">Data Management</string>
     <string name="menu_slideshow">About</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Stop sharing with service providers</string>
+    <string name="attachment_title">Phone Number</string>
+    <string name="attachment_summary_on">This operation cannot be recovered</string>
+    <string name="attachment_summary_off">This operation cannot be recovered</string>
 </resources>
