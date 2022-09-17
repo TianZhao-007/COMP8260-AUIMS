@@ -1,6 +1,8 @@
 package com.example.myapplication
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
+import android.widget.Button
 import android.widget.EditText
 import android.widget.ListView
 import com.google.android.material.snackbar.Snackbar
@@ -19,6 +21,7 @@ class NavActivity : AppCompatActivity() {
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityNavBinding
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -28,7 +31,7 @@ class NavActivity : AppCompatActivity() {
         setSupportActionBar(binding.appBarNav.toolbar)
 
         binding.appBarNav.fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+            Snackbar.make(view, "Contact with us: xxx@gmail.com", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
         }
         val drawerLayout: DrawerLayout = binding.drawerLayout

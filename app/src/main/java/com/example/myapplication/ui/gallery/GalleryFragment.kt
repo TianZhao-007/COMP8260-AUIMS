@@ -1,21 +1,25 @@
 package com.example.myapplication.ui.gallery
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.myapplication.R
+import com.example.myapplication.SettingsActivity
+import com.example.myapplication.SettingsActivity2
+import com.example.myapplication.SettingsActivity3
 import com.example.myapplication.databinding.FragmentGalleryBinding
+
 
 class GalleryFragment : Fragment() {
 
-private var _binding: FragmentGalleryBinding? = null
+  private var _binding: FragmentGalleryBinding? = null
   // This property is only valid between onCreateView and
   // onDestroyView.
   private val binding get() = _binding!!
+
 
   override fun onCreateView(
     inflater: LayoutInflater,
@@ -23,21 +27,36 @@ private var _binding: FragmentGalleryBinding? = null
     savedInstanceState: Bundle?
   ): View {
     val galleryViewModel =
-            ViewModelProvider(this).get(GalleryViewModel::class.java)
+      ViewModelProvider(this).get(GalleryViewModel::class.java)
 
     _binding = FragmentGalleryBinding.inflate(inflater, container, false)
-    val root: View = binding.root
+    binding.google.setOnClickListener{ v -> onClickGoogle(v)}
+    binding.facebook.setOnClickListener{ v1 -> onClickFacebook(v1)}
+    binding.TikTok.setOnClickListener{ v2 -> onClickGoogle(v2)}
 
-//    val textView: TextView = binding.textGallery
-//    galleryViewModel.text.observe(viewLifecycleOwner) {
-//      textView.text = it
-//    }
-//
-    return root
+    return binding.root
+
   }
 
-override fun onDestroyView() {
+
+
+  override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
     }
+
+  private fun onClickGoogle(view: View) {
+    val intent = Intent(activity, SettingsActivity::class.java)
+    startActivity(intent)
+  }
+
+  private fun onClickFacebook(view: View?) {
+    val intent = Intent(activity, SettingsActivity2::class.java)
+    startActivity(intent)
+  }
+
+  private fun onClickTikTok(view: View?) {
+    val intent = Intent(activity, SettingsActivity3::class.java)
+    startActivity(intent)
+  }
 }

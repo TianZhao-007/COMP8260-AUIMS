@@ -9,6 +9,9 @@ import android.widget.TextView
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
+
+//    val BtnGoogle = findViewById<Button>(R.id.google)
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -37,18 +40,14 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
 
         }
+//
+//        setContentView(R.layout.fragment_gallery)
+//        BtnGoogle.setOnClickListener()
 
-        setContentView(R.layout.fragment_gallery)
-        val google = findViewById<Button>(R.id.google)
-        google.setOnClickListener {
 
-            // your code to validate the user_name and password combination
-            // and verify the same
-            val intent = Intent(this,SettingsActivity::class.java)
-            startActivity(intent)
+
+
 
         }
-    }
-
-
 }
+
