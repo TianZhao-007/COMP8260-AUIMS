@@ -1,10 +1,13 @@
 package com.example.myapplication.ui.gallery
 
+import android.R
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ArrayAdapter
+import android.widget.ListView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.myapplication.SettingsActivity
@@ -16,10 +19,7 @@ import com.example.myapplication.databinding.FragmentGalleryBinding
 class GalleryFragment : Fragment() {
 
   private var _binding: FragmentGalleryBinding? = null
-  // This property is only valid between onCreateView and
-  // onDestroyView.
   private val binding get() = _binding!!
-
 
   override fun onCreateView(
     inflater: LayoutInflater,
@@ -34,11 +34,10 @@ class GalleryFragment : Fragment() {
     binding.facebook.setOnClickListener{ v1 -> onClickFacebook(v1)}
     binding.TikTok.setOnClickListener{ v2 -> onClickGoogle(v2)}
 
+
     return binding.root
 
   }
-
-
 
   override fun onDestroyView() {
         super.onDestroyView()
@@ -59,4 +58,6 @@ class GalleryFragment : Fragment() {
     val intent = Intent(activity, SettingsActivity3::class.java)
     startActivity(intent)
   }
+
+
 }

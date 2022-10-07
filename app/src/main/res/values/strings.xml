@@ -11,14 +11,14 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Data Management</string>
     <string name="menu_slideshow">About</string>
-    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_settings">Google Data Settings</string>
 
     <!-- Preference Titles -->
-    <string name="messages_header">Messages</string>
+    <string name="messages_header">User</string>
     <string name="sync_header">Sync</string>
 
     <!-- Messages Preferences -->
-    <string name="signature_title">Your signature</string>
+    <string name="signature_title">COMP8260 Team</string>
     <string name="reply_title">Default reply action</string>
 
     <!-- Sync Preferences -->

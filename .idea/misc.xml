@@ -4,22 +4,25 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Tian/AndroidStudioProjects/MyApplication12/app/src/main/res/drawable-v24/ic_baseline_vpn_key_24.xml" value="0.1765" />
+        <entry key="..\:/Users/Tian/AndroidStudioProjects/MyApplication12/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1" />
         <entry key="..\:/Users/Tian/AndroidStudioProjects/MyApplication12/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2785" />
+        <entry key="..\:/Users/Tian/AndroidStudioProjects/MyApplication12/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1" />
         <entry key="..\:/Users/Tian/AndroidStudioProjects/MyApplication12/app/src/main/res/drawable/side_nav_bar.xml" value="0.2785" />
-        <entry key="..\:/Users/Tian/AndroidStudioProjects/MyApplication12/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Tian/AndroidStudioProjects/MyApplication12/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/Tian/AndroidStudioProjects/MyApplication12/app/src/main/res/layout/activity_nav.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/Tian/AndroidStudioProjects/MyApplication12/app/src/main/res/layout/app_bar_nav.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/Tian/AndroidStudioProjects/MyApplication12/app/src/main/res/layout/content_nav.xml" value="0.14791666666666667" />
-        <entry key="..\:/Users/Tian/AndroidStudioProjects/MyApplication12/app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
-        <entry key="..\:/Users/Tian/AndroidStudioProjects/MyApplication12/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/Tian/AndroidStudioProjects/MyApplication12/app/src/main/res/layout/fragment_gallery.xml" value="0.2" />
+        <entry key="..\:/Users/Tian/AndroidStudioProjects/MyApplication12/app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="..\:/Users/Tian/AndroidStudioProjects/MyApplication12/app/src/main/res/layout/fragment_slideshow.xml" value="0.15879828326180256" />
+        <entry key="..\:/Users/Tian/AndroidStudioProjects/MyApplication12/app/src/main/res/layout/listview_item.xml" value="0.18125" />
         <entry key="..\:/Users/Tian/AndroidStudioProjects/MyApplication12/app/src/main/res/layout/nav_header_nav.xml" value="0.20260416666666667" />
         <entry key="..\:/Users/Tian/AndroidStudioProjects/MyApplication12/app/src/main/res/layout/settings_activity.xml" value="0.20260416666666667" />
         <entry key="..\:/Users/Tian/AndroidStudioProjects/MyApplication12/app/src/main/res/layout/settings_activity2.xml" value="0.24322916666666666" />
         <entry key="..\:/Users/Tian/AndroidStudioProjects/MyApplication12/app/src/main/res/layout/settings_activity3.xml" value="0.18229166666666666" />
         <entry key="..\:/Users/Tian/AndroidStudioProjects/MyApplication12/app/src/main/res/menu/activity_nav_drawer.xml" value="0.27395833333333336" />
         <entry key="..\:/Users/Tian/AndroidStudioProjects/MyApplication12/app/src/main/res/menu/nav.xml" value="0.1" />
-        <entry key="..\:/Users/Tian/AndroidStudioProjects/MyApplication12/app/src/main/res/xml/root_preferences.xml" value="0.264" />
+        <entry key="..\:/Users/Tian/AndroidStudioProjects/MyApplication12/app/src/main/res/xml/root_preferences.xml" value="0.1" />
       </map>
     </option>
   </component>
