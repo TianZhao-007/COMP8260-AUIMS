@@ -32,8 +32,7 @@ class GalleryFragment : Fragment() {
     _binding = FragmentGalleryBinding.inflate(inflater, container, false)
     binding.google.setOnClickListener{ v -> onClickGoogle(v)}
     binding.facebook.setOnClickListener{ v1 -> onClickFacebook(v1)}
-    binding.TikTok.setOnClickListener{ v2 -> onClickGoogle(v2)}
-
+//    binding.TikTok.setOnClickListener{ v2 -> onClickGoogle(v2)}
 
     return binding.root
 

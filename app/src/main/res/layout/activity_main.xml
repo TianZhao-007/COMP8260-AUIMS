@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/bg_pure"
     tools:context=".MainActivity">
 
     <TextView
@@ -55,7 +55,7 @@
         android:id="@+id/password"
         android:layout_below="@+id/username"
         android:background="#30ffffff"
-        android:hint="Username"
+        android:hint="Password"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:layout_margin="10dp"
