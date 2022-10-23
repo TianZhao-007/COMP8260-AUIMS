@@ -16,8 +16,4 @@ The program includes basic frontend and backend code, which are implemeneted by 
 - **API**: Tech companies provide internet infomation API for user to query their own data.  
 - **Sync**: Users are granted the right to control data stored on the Internet and sync at the same time.  
 
-### :books: *Documentation*
 
-
-
-### :wrench: *Tools*
